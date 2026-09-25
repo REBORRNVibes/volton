@@ -106,3 +106,11 @@ body.gate{min-height:100vh;display:flex;align-items:center;justify-content:cente
 @media (max-width:720px){.streams{grid-template-columns:1fr}}
 .stream{background:var(--sky);border-radius:12px;padding:22px}
 .stream p:last-child{margin:0;font-size:15px}
+
+/* contact points */
+.contact{margin-bottom:20px}
+.doc .go.pending{color:var(--muted);font-weight:500;font-size:14px}
+.people{margin-top:0}
+.plist{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px 24px}
+.plist div{display:flex;flex-direction:column;font-size:15px}
+.plist span{color:var(--muted);font-size:14px}
